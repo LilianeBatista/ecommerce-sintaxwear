@@ -1,25 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Sintaxwear — Homepage</title>
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/componentes/header.css">
-  <link rel="stylesheet" href="css/componentes/hero.css">
-  <link rel="stylesheet" href="css/componentes/product-grid.css">
-  <link rel="stylesheet" href="css/componentes/product-card.css">
-  <link rel="stylesheet" href="css/componentes/footer.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">Logo / Nav</div>
-  </header>
-  <main>
-    <section class="hero container">Hero</section>
-    <section class="product-grid container">Products</section>
-  </main>
-  <footer class="site-footer container">Footer</footer>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sintaxwear — Loja</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/componentes/header.css" />
+    <link rel="stylesheet" href="css/componentes/hero.css" />
+    <link rel="stylesheet" href="css/componentes/product-grid.css" />
+    <link rel="stylesheet" href="css/componentes/product-card.css" />
+    <link rel="stylesheet" href="css/componentes/panel.css" />
+    <link rel="stylesheet" href="css/componentes/footer.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+    <header class="site-header" role="banner">
+      <div class="container">
+        <!-- Marca, pesquisa, carrinho e navegação principal -->
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Navegação principal">
+      <div class="container">
+        <!-- Links de categorias principais -->
+      </div>
+    </nav>
+
+    <main>
+      <div class="container layout">
+        <section class="hero" aria-label="Destaque principal">
+          <!-- Hero (estrutura macro) -->
+        </section>
+
+        <nav class="breadcrumb" aria-label="Caminho de navegação">
+          <!-- Breadcrumbs -->
+        </nav>
+
+        <div class="content">
+          <aside class="filters" aria-label="Filtros">
+            <!-- Painel lateral de filtros / categorias -->
+          </aside>
+
+          <section class="product-list" aria-label="Lista de produtos">
+            <!-- Grid de produtos (cards) -->
+          </section>
+        </div>
+
+        <section class="pagination" aria-label="Paginação">
+          <!-- Paginação -->
+        </section>
+      </div>
+    </main>
+
+    <section class="newsletter container" aria-label="Inscrição na newsletter">
+      <!-- Newsletter (estrutura macro) -->
+    </section>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <!-- Rodapé: links, informações de contato e copyright -->
+      </div>
+    </footer>
+  </body>
 </html>
