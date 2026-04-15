@@ -2,18 +2,16 @@
 .header {
     background-color: #ffffff;
     position: fixed;
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 80px);
+    width: calc(100% - 590px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.335rem 1.25rem;
-    
-
 } 
 
 .logo img{
@@ -49,10 +47,3 @@
 .nav-right a:hover img{
     opacity: 0.7;
 }
-
-.hero-section {
-    margin: 20px 20px 0 20px;
-    border-radius: 20px;/* Ajusta este valor según la altura de tu header */
-
-}  
-
